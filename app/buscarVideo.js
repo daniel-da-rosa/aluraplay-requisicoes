@@ -1,10 +1,8 @@
-// import { conexaoConvertida } from "./conexao-api.js"
-// import constroiCard, { constroiCard} from './mostrarVideo.js'
 
 import { conexaoConvertida } from "./conexao-api.js"
 import {constroiCard} from "./mostrarVideo.js"
 
-
+alert('teste')
 async function buscarVideo(evento){
     alert('clicou')
     evento.preventDefault()
@@ -23,6 +21,9 @@ async function buscarVideo(evento){
     );
 }
 
-const botaoPesquisa = document.querySelector('.pesquisar__botao')
+const botaoPesquisa = document.querySelector('[data-botao-pesquisa]')
 
-botaoPesquisa.addEventListener('click',evento => buscarVideo(evento))
+botaoPesquisa.addEventListener('click', evento => {
+    console.log('Botão de pesquisa clicado!');
+    buscarVideo(evento);
+});
