@@ -9,29 +9,38 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="./css/flexbox.css">
-    <title>AluraPlay</title>
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Projedata Play</title>
+    <link rel="shortcut icon" href="./img/iniflex.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-
     <header>
-
+        
         <nav class="cabecalho">
-            <a class="logo" href="./index.html"></a>
+            <section class="logo_titulo">
 
-            <div class="cabecalho__pesquisar">
+                <a class="logo" href="./index.html">
+                </a>
+                <div class="cabecalho__titulo">
+                    <h1>Projedata Videos</h1>
+                </div>
+            </section>
+            
+            <section class="pesquisa">
 
-                <input type="search" placeholder="Pesquisar" id="pesquisar" class="pesquisar__input" data-pesquisa>
-                <button class="pesquisar__botao" data-botao-pesquisa>
-
-            </div>
+                <div class="cabecalho__pesquisar">
+                    <input type="search" placeholder="Pesquisar" id="pesquisar" class="pesquisar__input" data-pesquisa>
+                    <button class="pesquisar__botao" data-botao-pesquisa>
+    
+                </div>
+            </section>
 
             <div class="cabecalho__icones">
                 <a href="./pages/enviar-video.html" class="cabecalho__videos"></a>
             </div>
         </nav>
-
+       
     </header>
 
     <ul class="videos__container" alt="videos alura" data-lista>

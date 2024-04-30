@@ -10,7 +10,7 @@ export default function constroiCard(titulo, descricao, url, imagem) {
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen></iframe>
 <div class="descricao-video">
-    <img src="${imagem}" alt="logo canal alura">
+    <img src="./img/iniflex.ico" alt="logo canal alura">
     <h3>${titulo}</h3>
     <p>${descricao}</p>
 </div>`

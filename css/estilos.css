@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *,
 *::before,
 *::after {
@@ -35,8 +38,9 @@ body {
 }
 
 .logo {
-    background-image: url(../img/cabecalho/Logo.png);
+    background-image: url(../img/prjlogo.png);
     background-repeat: no-repeat;
+    align-items: center;
     padding: 15px 65px;
     cursor: pointer;
 }
@@ -99,6 +103,24 @@ body {
     justify-content: center;
 }
 
+.cabecalho__titulo{
+    display: flex;
+    margin-left: 0;
+    color: #3246FF;  
+}
+h1{
+    margin-left: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    padding: 8px;
+    font-size: 3em;
+}
+.logo_titulo{
+    display:  inline-flex;
+    justify-content: flex-start
+}
+.logo_titulo-prj{
+}
 @media(min-width: 834px) {
 
     body {
